@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    height: 54px;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.navbar__first {
+    margin-left: 32px;
+    display: flex;
+    gap: 10px;
+}
+
+.navbar__sec {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.navtext {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.navtext:hover {
+    text-decoration: underline 2px #0067b8;
+    cursor: pointer;
+}
+
+.logo {
+    width: 108px;
+    height: 23px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.main-cont {
+    color: white;
+    position: relative;
+    height: 475px;
+    width: 100%;
+    background-size: auto auto;
+    background-image: url("back.jfif");
+    background-position: start;
+    background-size: contain;
+    background-color: none;
+}
+
+.main-content {
+    position: relative;
+    top: 135px;
+    left: 100px;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+.main-text {
+    width: 500px;
+    line-height: 1.5;
+}
+
+.main-btn {
+    background-color: #0067b8;
+    color: white;
+    width: 240px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+}
+
+.main-btn:hover {
+    background-color: #015ea5;
+    cursor: pointer;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 29px;
+}
+
+.item {
+    width: 320px;
+}
+
+.item:first-child {
+    margin-left: 70px;
+}
+
+.item:last-child {
+    margin-right: 70px;
+}
+
+.item_img {
+    width: 320px;
+    height: 170px;
+}
+
+.item-link {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.arrow {
+    display: inline;
+}

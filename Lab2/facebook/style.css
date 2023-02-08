@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+}
+
+.main-info {
+    width: 470px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+.register-panel {
+    display: flex;
+    width: 400px;
+    padding: 30px;
+    margin: 0 -5px;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: #ffffff;
+    height: 350px;
+    position: absolute;
+    top: 100px;
+    left: 860px;
+    align-items: center;
+}
+.content-container {
+    height: 600px;
+}
+
+#Facebook {
+    font-size: 40px;
+    margin: 0 1px;
+    margin-bottom: 10px;
+    color: #1b74e4;
+}
+
+#Facebook-info {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.register-item {
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid #dddfe2;
+    border-radius: 7px;
+}
+
+input:active,
+input:focus {
+    border: 1px solid #1b74e4;
+    outline: #1b74e4;
+    box-shadow: 0 0 10px 3px #e7f3ff;
+}
+
+.reg-btn {
+    background-color: #1877f2;
+    color: white;
+    font-size: 17px;
+}
+
+.reg-link {
+    text-align: center;
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.some {
+    height: 51.6px;
+    width: 363.3px;
+}
+
+.some::placeholder {
+    right: 10px;
+    position: relative;
+    left: 20px;
+}
+
+.line {
+    height: 1px;
+    border-bottom: 1px solid #dadde1;
+    width: 364px;
+    margin-bottom: 30px;
+}
+
+.new-acc-btn {
+    background-color: #42b72a;
+    color: white;
+    font-size: 17px;
+    width: 231px;
+    height: 48px;
+}
