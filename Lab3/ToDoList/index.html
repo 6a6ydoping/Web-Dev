@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <style>
+            .container {
+                width: 300px;
+                height: 300px;
+            }
+            .header {
+                font-size: 40px;
+            }
+
+            #in {
+                width: 400px;
+                height: 30px;
+            }
+
+            .container {
+                width: 500px;
+                margin: 10px 0px;
+            }
+
+            .taskContainer {
+                display: flex;
+                border: 1px solid black;
+                border-radius: 5px;
+                background-color: red;
+                margin: 10px 0px;
+            }
+
+            div {
+                margin: 10px 0px;
+            }
+
+            p {
+                display: inline;
+            }
+
+            .knopka {
+                margin-left: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="header">To do list</h1>
+        <input type="text" id="in" />
+        <button onclick="addTask()">Create</button>
+        <div class="container" id="myDiv"></div>
+    </body>
+    <script src="script.js"></script>
+</html>
